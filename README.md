@@ -1,7 +1,6 @@
-# Tauri + React + Typescript
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+# KryptosFile
 
-## Recommended IDE Setup
+KryptosFile is a macOS application designed for seamless file encryption and decryption directly on the disk. This utility empowers users with a secure and user-friendly solution for safeguarding sensitive data.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+<img width="802" alt="image" src="https://github.com/Satish-Prajapati/KryptosFile/assets/25876221/f0babfcb-ff5d-4af1-863d-72f5050f6a85">
