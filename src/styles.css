@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-  border-color: #396cd8;
+  /* border-color: #396cd8; */
 }
 button:active {
   border-color: #396cd8;
@@ -160,14 +160,14 @@ button {
   box-sizing: border-box;
   width: 400px;
   padding: 14px 0;
-  border: 1px solid #03DAC6;
+  border: 1px solid #ffffff;
 }
 
 .encryption-key-input {
   box-sizing: border-box;
   width: 400px;
   padding: 14px;
-  border: 1px solid #03DAC6;
+  border: 1px solid #ffffff;
 }
 
 input:focus {
@@ -191,8 +191,8 @@ input:focus {
 .btn-block {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 14px;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .encrypt-btn {
@@ -200,7 +200,15 @@ input:focus {
   border: 1px solid #03DAC6;
 }
 
+.encrypt-btn:hover {
+  background-color: #02ac9b;
+}
+
 .decrypt-btn {
   background-color: #CF6679;
   border: 1px solid #CF6679;
+}
+
+.decrypt-btn:hover {
+  background-color: #c9425b;
 }
