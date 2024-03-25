@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-  border-color: #396cd8;
+  /* border-color: #396cd8; */
 }
 button:active {
   border-color: #396cd8;
@@ -91,7 +91,7 @@ button {
 @media (prefers-color-scheme: dark) {
   :root {
     color: #f6f6f6;
-    background-color: #2f2f2f;
+    background-color: #121212;
   }
 
   a:hover {
@@ -106,4 +106,109 @@ button {
   button:active {
     background-color: #0f0f0f69;
   }
+}
+
+.home-view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.app-name {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: clamp(2.8rem, 1.5vw, 3rem);
+  font-weight: bold;
+  margin: 5px;
+  background: linear-gradient(
+    to right,
+    #BB86FC 20%,
+    #03DAC6 30%,
+    #CF6679 70%,
+    #BB86FC 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.tag-line {
+  text-align: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.file-upload-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 14px 0;
+  border: 1px solid #ffffff;
+}
+
+.encryption-key-input {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 14px;
+  border: 1px solid #ffffff;
+}
+
+input:focus {
+  border: 1px solid #BB86FC;
+}
+
+.file-icon {
+  position: absolute;
+  left: 10px;
+  height: 1.5em;
+}
+
+.file-upload-block {
+  margin: 14px 0;
+}
+
+.input-block {
+  margin: 14px 0;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.encrypt-btn {
+  background-color: #03DAC6;
+  border: 1px solid #03DAC6;
+}
+
+.encrypt-btn:hover {
+  background-color: #02ac9b;
+}
+
+.decrypt-btn {
+  background-color: #CF6679;
+  border: 1px solid #CF6679;
+}
+
+.decrypt-btn:hover {
+  background-color: #c9425b;
 }
